@@ -1,0 +1,31 @@
+$fontPathTpl: 'fonts/'
+$fontNameTpl: 'svgfont'
+@font-face
+	font-family: $fontNameTpl
+	src: url($fontPathTpl + $fontNameTpl + '.ttf') format('truetype')
+	src: url($fontPathTpl + $fontNameTpl + '.woff') format('woff')
+	font-weight: normal
+	font-style: normal
+
+$icon-Path: "\EA01"
+$icon-pinterest: "\EA04"
+
+
+%icon
+	font-family: $fontNameTpl
+	font-style: normal
+	font-weight: normal
+	text-rendering: auto
+	speak: none
+	line-height: 1
+	-webkit-font-smoothing: antialiased
+	-moz-osx-font-smoothing: grayscale
+
+.icon, [class^="icon-"], [class*=" icon-"]
+	@extend %icon
+	display: inline-block
+
+.icon-Path:before
+	content: $icon-Path
+.icon-pinterest:before
+	content: $icon-pinterest

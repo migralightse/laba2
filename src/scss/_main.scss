@@ -1,0 +1,125 @@
+.flex-container {
+	display: flex;
+	justify-content: space-between;
+	gap: 10px;
+	.headerNew__soc {
+		display: flex;
+		margin: 27px;
+		gap: 15px;
+
+	}
+	.headerNew__logo{
+		font-family: 'Century Gothic';
+		font-style: normal;
+		font-size: 40px;
+		line-height: 13px;
+		letter-spacing: 1px;
+		text-transform: uppercase;
+
+		color: #181819;
+		display: flex;
+		margin: 10px;
+		gap: 15px;
+	}
+	.headerNew__link{
+		font-family: 'Century Gothic';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 11px;
+		line-height: 13px;
+		letter-spacing: 1px;
+		text-transform: uppercase;
+
+		color: #9999A0;
+		display: flex;
+		margin: 27px;
+		gap: 5px;
+	}
+}
+.headerNew__nav{
+	display: flex;
+	margin: 27px;
+	gap: 15px;
+
+ul.flex-container2{
+	display: flex;
+	justify-content: space-between;
+	gap: 10px;
+	width: 100%;
+
+
+	.menu-item{
+		font-family: 'Century Gothic';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 11px;
+		line-height: 13px;
+		letter-spacing: 1px;
+		text-transform: uppercase;
+
+		color: #181819;
+		//text-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+
+	}.menu-item1{
+		font-family: 'Century Gothic';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 11px;
+		line-height: 13px;
+		letter-spacing: 1px;
+		text-transform: uppercase;
+
+		color: #181819;
+		//text-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+
+	}
+	.menu-item2{
+
+		font-family: 'Century Gothic';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 11px;
+		line-height: 13px;
+		letter-spacing: 1px;
+		text-transform: uppercase;
+
+		color: #181819;
+	}
+	.menu-item3{
+
+		font-family: 'Century Gothic';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 11px;
+		line-height: 13px;
+		letter-spacing: 1px;
+		text-transform: uppercase;
+
+		color: #181819;
+	}
+	.menu-item4{
+
+		font-family: 'Century Gothic';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 11px;
+		line-height: 13px;
+		letter-spacing: 1px;
+		text-transform: uppercase;
+
+		color: #181819;
+	}
+	.menu-item5{
+
+		font-family: 'Century Gothic';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 11px;
+		line-height: 13px;
+		letter-spacing: 1px;
+		text-transform: uppercase;
+
+		color: #181819;
+	}
+}
+}
