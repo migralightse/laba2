@@ -8,11 +8,12 @@
 		gap: 15px;
 
 	}
-	.headerNew__logo{
+	.headerNew__logo h1{
 		font-family: 'Century Gothic';
 		font-style: normal;
 		font-size: 40px;
-		line-height: 13px;
+		font-weight: 200;
+		line-height: 45px;
 		letter-spacing: 1px;
 		text-transform: uppercase;
 
@@ -20,6 +21,7 @@
 		display: flex;
 		margin: 10px;
 		gap: 15px;
+
 	}
 	.headerNew__link{
 		font-family: 'Century Gothic';
@@ -33,93 +35,149 @@
 		color: #9999A0;
 		display: flex;
 		margin: 27px;
-		gap: 5px;
+		gap: 15px;
 	}
 }
-.headerNew__nav{
+.headerNew__nav {
 	display: flex;
 	margin: 27px;
 	gap: 15px;
 
-ul.flex-container2{
+	ul.flex-container2 {
+		display: flex;
+		justify-content: space-between;
+		gap: 10px;
+		width: 100%;
+
+
+		.menu-item a {
+			font-family: 'Century Gothic';
+			font-style: normal;
+			font-weight: 400;
+			font-size: 11px;
+			line-height: 13px;
+			letter-spacing: 1px;
+			text-transform: uppercase;
+
+			color: #181819;
+			//text-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+
+		}
+
+		.menu-item1 a {
+			font-family: 'Century Gothic';
+			font-style: normal;
+			font-weight: 400;
+			font-size: 11px;
+			line-height: 13px;
+			letter-spacing: 1px;
+			text-transform: uppercase;
+
+			color: #181819;
+			//text-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+
+		}
+
+		.menu-item2 a {
+
+			font-family: 'Century Gothic';
+			font-style: normal;
+			font-weight: 400;
+			font-size: 11px;
+			line-height: 13px;
+			letter-spacing: 1px;
+			text-transform: uppercase;
+
+			color: #181819;
+		}
+
+		.menu-item3 a {
+
+			font-family: 'Century Gothic';
+			font-style: normal;
+			font-weight: 400;
+			font-size: 11px;
+			line-height: 13px;
+			letter-spacing: 1px;
+			text-transform: uppercase;
+
+			color: #181819;
+		}
+
+		.menu-item4 a {
+
+			font-family: 'Century Gothic';
+			font-style: normal;
+			font-weight: 400;
+			font-size: 11px;
+			line-height: 13px;
+			letter-spacing: 1px;
+			text-transform: uppercase;
+
+			color: #181819;
+		}
+
+		.menu-item5 a {
+
+			font-family: 'Century Gothic';
+			font-style: normal;
+			font-weight: 400;
+			font-size: 11px;
+			line-height: 13px;
+			letter-spacing: 1px;
+			text-transform: uppercase;
+
+			color: #181819;
+		}
+
+	}
+}
+
+.container2 {
 	display: flex;
-	justify-content: space-between;
-	gap: 10px;
-	width: 100%;
+	margin: 27px;
+	gap: 15px;
+	flex
+
+	.section-title {
+		width: 100%;
+		 h1 {
+			position: absolute;
+			width: 272px;
+			height: 44px;
+			left: 553px;
+			top: 818px;
+
+			font-family: 'Century Gothic';
+			font-style: normal;
+			font-weight: 400;
+			font-size: 36px;
+			line-height: 44px;
+
+			color: #181819;
 
 
-	.menu-item{
-		font-family: 'Century Gothic';
-		font-style: normal;
-		font-weight: 400;
-		font-size: 11px;
-		line-height: 13px;
-		letter-spacing: 1px;
-		text-transform: uppercase;
-
-		color: #181819;
-		//text-shadow: 2px 2px 2px rgba(0,0,0,0.2);
-
-	}.menu-item1{
-		font-family: 'Century Gothic';
-		font-style: normal;
-		font-weight: 400;
-		font-size: 11px;
-		line-height: 13px;
-		letter-spacing: 1px;
-		text-transform: uppercase;
-
-		color: #181819;
-		//text-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+		}
 
 	}
-	.menu-item2{
+	.projects-grid{
+		display: flex;
+		justify-content: space-between;
+		gap: 10px;
+		width: 100%;
 
-		font-family: 'Century Gothic';
-		font-style: normal;
-		font-weight: 400;
-		font-size: 11px;
-		line-height: 13px;
-		letter-spacing: 1px;
-		text-transform: uppercase;
 
-		color: #181819;
-	}
-	.menu-item3{
+		 a{
+			flex-direction: column;
+			display: flex;
+			justify-content: space-between;
+			width: 33%;
 
-		font-family: 'Century Gothic';
-		font-style: normal;
-		font-weight: 400;
-		font-size: 11px;
-		line-height: 13px;
-		letter-spacing: 1px;
-		text-transform: uppercase;
+			//justify-content: space-between;
+		//	gap: 10px;
+			//width: 100%;
+		}
 
-		color: #181819;
-	}
-	.menu-item4{
-
-		font-family: 'Century Gothic';
-		font-style: normal;
-		font-weight: 400;
-		font-size: 11px;
-		line-height: 13px;
-		letter-spacing: 1px;
-		text-transform: uppercase;
-
-		color: #181819;
-	}
-	.menu-item5{
-
-		font-family: 'Century Gothic';
-		font-style: normal;
-		font-weight: 400;
-		font-size: 11px;
-		line-height: 13px;
-		letter-spacing: 1px;
-		text-transform: uppercase;
-
-		color: #181819;
 	}
 }
-}
+
