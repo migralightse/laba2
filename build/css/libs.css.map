@@ -1,1 +1,1 @@
-{"version":3,"sources":["libs.scss"],"names":[],"mappings":"AAAQ","file":"libs.css","sourcesContent":["@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i&subset=cyrillic');\n// @import \"../lib/bootstrap/dist/css/bootstrap.min.css\";\n"]}
+{"version":3,"sources":["libs.scss"],"names":[],"mappings":"AAAQ","file":"libs.css","sourcesContent":["@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i&subset=cyrillic');\r\n// @import \"../lib/bootstrap/dist/css/bootstrap.min.css\";\r\n"]}

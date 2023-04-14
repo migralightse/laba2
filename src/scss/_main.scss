@@ -182,7 +182,7 @@
 		 .item{
 
 			width: 33%;
-			 padding: 0 15px;
+			 padding: 0 15px 50px;
 			 text-align: center;
 			 .item-img {
 				 width: 100%;
@@ -195,12 +195,62 @@
 				 width: 100%;
 				 padding: 15px;
 				 a {
-					 color: black;
-					 font-size: 24px;
+					 font-family: 'Century Gothic';
+					 font-style: normal;
+					 font-weight: 400;
+					 font-size: 18px;
+					 line-height: 26px;
+
+					 /* identical to box height, or 144% */
+
+					 color: #181819;
 				 }
 			 }
 		}
 
+	}
+
+}
+.container3{
+	display: flex;
+	flex-wrap: nowrap;
+	width: 100%;
+	flex-direction: column;
+	.section-title2{
+		display: flex;
+		flex-wrap: nowrap;
+		width: 100%;
+		justify-content: center;
+		h1{
+			font-family: 'Century Gothic';
+			font-style: normal;
+			font-weight: 400;
+			font-size: 36px;
+			line-height: 44px;
+			text-align: center;
+
+			color: #181819;
+		}
+	}
+	.main-about__desc{
+		display: flex;
+		flex-wrap: wrap;
+		padding: 70px 300px	;
+		width: 100%;
+		justify-content: center;
+		p{
+			font-family: 'Century Gothic';
+			font-style: normal;
+			font-weight: 400;
+			font-size: 15px;
+			line-height: 23px;
+
+			/* or 153% */
+
+			color: #181819;
+
+
+		}
 	}
 }
 
